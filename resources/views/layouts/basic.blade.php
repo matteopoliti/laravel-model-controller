@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
 
 <head>
     <meta charset="UTF-8">
@@ -9,19 +9,14 @@
 
     @vite('resources/js/app.js')
 
-    @yield('style')
 </head>
 
 <body>
-    <header>
-        @include('components.header')
-    </header>
 
-    <main>
-        <div>
-            @yield('content')
-        </div>
-    </main>
+    @include('components.header')
+
+    @yield('content')
+
 </body>
 
 </html>

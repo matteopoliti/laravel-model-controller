@@ -1,7 +1,5 @@
-<h1>Componente Header</h1>
-<nav>
-    <ul>
-        <li><a href="{{ route('homePage') }}">Home</a></li>
-        <li><a href="{{ route('aboutPage') }}">About</a></li>
-    </ul>
-</nav>
+<header>
+
+    <h1 class=" text-center text-uppercase text-danger ">Movies</h1>
+
+</header>
